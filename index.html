@@ -1,28 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script defer src="./js/script.js"></script>
-    
-
-  
-    
     <title>Weather App</title>
 </head>
+
 <body>
-<h1>Today's Weather</h1>
-<main>
-    <h3>City</h3>
-    <!-- <p id="city"></p>
-    <p>Year</p>
-    <p id="year"></p>
-    <p> Rating</p>
-    <p id="rated"></p> -->
-    <input type = <button>Enter Your City</button>
-</main>
+
+    <h1>Today's Weather</h1>
+
+    <div class='returnedTemp'>
+
+       
+
+    </div>
+
+    <main>
+
+        <form>
+            <input type="text" placeholder="Your Location" id="searchForm" />
+            
+            <input type="submit" value="Get Weather"></form>
+
+            <p id="returnedTemperature">Temperature:</p>
+            <p id="returnedLocation">Location:</p>
+            <p id="returnedWeather">Weather</p>
+            <p id="returnedFeelsLike">Feels Like:</p>
+           
+            <p type="text" id="cityTemp"></p>
+        </form>
+        <div class="bottomSection">
+            <img src="">
+        </div>
+
+    </main>
 
 </body>
+
 </html>
